@@ -24,7 +24,7 @@ public class VerifyLogin {
 		{
 		if(	rs.getString(1).equals(name) && rs.getString(2).equals(pass))
 		{
-			status=true;
+			status=true;//WELCOME
 			
 		}
     }
